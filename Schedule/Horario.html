@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Horario.css">
+    <title>Schedule</title>
+</head>
+<body>
+    <div class="container">
+    <table style="width: 50%;"> 
+        <tr>
+            <th colspan="6" style="text-align: center;" >2º DAW</th>
+        </tr>
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <!--RECORDAR EL USO DE "ROWSPAN"-->
+        <tr>
+          <!--hora-->  <td id="Hora">14:10<br> 15:05</td>
+            <!--Lunes--> <td id="EntornoCliente" rowspan="2"> Daw Entorno Cliente</td>
+            <!--Martes--> <td id="Despliege" rowspan="2">Despliege de aplicaciones</td>
+            <!--Miercoles--> <td style="background-color: white;"></td>
+            <!--Jueves--> <td id="EntornoCliente" rowspan="2">Daw Entorno Cliente</td>
+            <!--Viernes--> <td id="EntornoServidor" rowspan="2">Daw Entorno Servidor</td>
+        </tr>
+        <tr>
+            <!--hora-->  <td id="Hora">15:05<br>16:00</td>
+            <!--Lunes--> 
+            <!--Martes--> 
+            <!--Miercoles--> <td id="EntornoServidor" rowspan="2">Daw Entorno Servidor</td>
+            <!--Jueves--> 
+            <!--Viernes--> 
+        </tr>
+        <tr>
+            <!--hora-->  <td id="Hora">16:00<br>16:55</td>
+            <!--Lunes--> <td id="Empresa">Empresa e iniciativa</td>
+            <!--Martes--> <td id="Empresa">Empresa e iniciativa</td>
+            <!--Miercoles--> 
+            <!--Jueves--> <td id="EntornoServidor">Daw Entorno Servidor</td>
+            <!--Viernes--> <td id="Empresa">Empresa e iniciativa</td>
+        </tr>
+        <tr> <!--Patio--> <td></td>
+            <!--hora-->  <td style="background-color: white; text-align: center; color: #019da1;" colspan="5">Patio</td>
+            <!--Lunes--> 
+            <!--Martes--> 
+            <!--Miercoles--> 
+            <!--Jueves--> 
+            <!--Viernes--> 
+            
+        </tr>
+        <tr>
+            <!--hora-->  <td id="Hora">17:15<br>18:10</td>
+            <!--Lunes--> <td id="EntornoServidor" rowspan="2">Daw Entorno Servidor</td>
+            <!--Martes--> <td style="background-color: burlywood;">Tutoria 2º</td>
+            <!--Miercoles--> <td id="Diseño" rowspan="2">Diseño de Interfaces</td>
+            <!--Jueves--> <td id="EntornoServidor">Daw Entorno Servidor</td>
+            <!--Viernes--> <td id="Diseño" rowspan="2">diseño de interfaces</td>
+        </tr>
+        <tr>
+            <!--hora-->  <td id="Hora">18:10<br>19:05</td>
+            <!--Lunes--> 
+            <!--Martes--> <td id="EntornoCliente" rowspan="3">Daw Entorno Cliente</td>
+            <!--Miercoles--> 
+            <!--Jueves--> <td id="Despliege" rowspan="2">Despliege de aplicaciones</td>
+            <!--Viernes--> 
+        </tr>
+        <tr>
+            <!--hora-->  <td id="Hora">19:05<br>20:00</td>
+            <!--Lunes--> <td id="Diseño" rowspan="2">Diseño de Interfaces</td>
+            <!--Martes--> 
+            <!--Miercoles--> <td id="Despliege" rowspan="2">Despliege de aplicaciones</td>
+            <!--Jueves--> 
+            <!--Viernes--> <td style="background-color: white;"></td>
+        </tr>
+        <tr>
+            <!--hora-->  <td id="Hora">20:00<br>20:55</td>
+            <!--Lunes--> 
+            <!--Martes--> 
+            <!--Miercoles--> 
+            <!--Jueves--> <td style="background-color: white;"></td>
+            <!--Viernes--> <td style="background-color: white;"> </td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>

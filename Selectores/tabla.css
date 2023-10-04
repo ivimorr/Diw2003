@@ -1,0 +1,42 @@
+table{
+    width: 25%;
+    border-collapse: collapse;
+    text-align: center; 
+    justify-content: center;  
+    
+}
+
+td,th{
+    border: 1px solid black;
+    text-align: left;
+}
+
+#encabezado{
+
+    background-image: url(images/fondo_gris.gif);
+}
+
+#moneda{
+    background-color:  #E6F3FF ;
+
+}
+
+#amarillo{
+
+    background-color:  #FFFFCC;
+}
+#tabla{
+
+    tr:hover td{
+        background-color:#FFFF66 ;
+    }
+
+}
+
+.contenedor{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

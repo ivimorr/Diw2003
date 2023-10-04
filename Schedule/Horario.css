@@ -1,0 +1,45 @@
+body{
+   background-color: black;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #ededed;
+    text-align: center;
+    
+}
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#EntornoCliente{
+    background-color: pink;
+}
+
+#EntornoServidor{
+    background-color: orange;
+}
+#Despliege{
+    background-color: yellow;
+}
+#Empresa{
+    background-color:green;
+}
+#Diseño{
+    background-color: aqua;
+}
+#Hora{
+    color: #019da1;
+}
+th{
+    color: #019da1;
+}
