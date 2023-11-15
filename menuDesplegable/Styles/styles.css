@@ -1,0 +1,117 @@
+/***{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul{
+    position: relative;
+    font-style: none;
+    display: flex;
+    padding: 20px 0px 20px 0px;
+    margin: 0px 80px 0px 80px;
+}
+
+ul li{
+   /* position: absolute;*/ /*Esto es lo que hece que da problemas*/
+  /*  z-index: 2;
+    width: 100px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7em;
+    height:  0px;
+    overflow: hidden;
+
+}
+
+li a:hover{
+    text-decoration: none;
+    color: red;
+    
+}
+ */
+
+ * {
+    margin:  0px;
+    padding: 0px;
+ }
+
+ body {
+    padding-top: 20px;
+    text-align: center;
+ }
+
+ nav > ul > li{
+    display: inline-block; /*Los ponemos en orden horizontal*/
+    text-decoration: none; /*list-style: none;*/
+    margin: 50px;
+    text-align: center;
+ }
+
+
+
+ nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+ }
+
+ /*Submenu desplegable*/
+ #submenu{
+    /*El padre marca origen de las coordenadas*/
+    position: relative;
+ }
+
+ /*Enlaces del submenu*/
+ #submenu > ul > li > a{
+    color: white;
+    margin: auto;
+    text-decoration: none;
+ }
+
+ /*Todo el submenu*/
+ #submenu > ul{
+    /*Hijo marca las cosrdenadas como desea, por ser su padre ralative*/
+    position: absolute;
+    left: 10px;
+    /*Para que se mantenga oculto*/
+    height: 0px;
+    overflow: hidden;
+    width: 145px;
+    /*Transición de altura, tipo y duración*/
+    transition: linear 2s;
+    /*Para qeu no se solapen*/
+    z-index: 2;
+ }
+
+ /*La transición*/
+ #submenu:hover > ul{
+    height: 200px;
+    
+ }
+ #submenu > ul > li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0px;
+    background-color: #ff7e42;
+ }
+ 
+ /*Solo impares*/
+ #submenu > ul > li:nth-child(odd){
+    background-color: #f06529;
+ }
+
+ /*Redondear los bordes*/
+ #submenu > ul > li:first-child{
+    /*Redondeo superior*/
+    border-radius: 8px 8px 0px 0px;
+    margin-top: 15px;
+    position: relative;
+ }
+ #submenu > ul > li:last-child {
+    /*Redondeo inferior*/
+    border-radius: 0px 0px 8px 8px;
+}
+
+
