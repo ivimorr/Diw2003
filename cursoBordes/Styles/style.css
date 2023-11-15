@@ -1,0 +1,163 @@
+*{
+    margin: 0%; /*Margen exterior*/
+    padding: 0%; /* Margen interno*/
+}
+
+body{
+    
+    padding-top: 20px;
+    text-align: center;
+    /*background-image: url("/imgs/old_map.png");*/
+    background : linear-gradient(#ce3838, #ffff);
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+#page{
+    width: 960px;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    
+    
+}
+#header1{
+    font-family:'Courier New', Courier, monospace;
+    color:white ;
+    font-size: 1.1em;
+    border-bottom: 6px;
+    background-color: #313B44;
+    border-bottom: black 6px solid;
+    background-image: linear-gradient(#00b3ff, #686868);
+    border-radius: 20px 20px 0px 0px ;
+}
+
+h1{
+    background-image: url("/imgs/logo.png");
+    background-repeat: no-repeat, repeat;
+    background-position: left 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:100px ;
+    padding-right:100px ;
+}
+
+nav{
+    font-family: 'Courier New', Courier, monospace;
+    color: silver;
+    font-size: 1.4em;
+    text-align: center;
+   background-color: #E7e40A;
+    background-repeat: repeat;
+    
+}
+
+li{
+    padding-top :80px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-left: 100px;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer ;
+    color: white;
+    text-decoration: none;
+    
+}
+li:hover{
+    color: gray;
+}
+#primerLi{
+
+    background-image: url("/imgs/book.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    border-top: 10px;
+}
+#segundoLi{
+    background-image: url("/imgs/film.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    border-top: 10px;
+}
+
+#tercerLi{
+    background-image: url("/imgs/mail.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    border-top: 10px;
+}
+
+
+#content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    background-image: url("/imgs/lgrey008.jpg");
+    width: 100%;
+    display: table;
+}
+
+
+
+article{
+    width: 240px;
+    color: lightgrey;
+    border: 1px solid;
+    background-color: white;
+    line-height:  1.8em; 
+    padding-left: 5px;
+    padding-top:5px ;
+    padding-right:5px ;
+    padding-bottom:20px ;
+    margin-bottom: 30px; 
+    margin-top:30px ;
+    margin-left: 30px;
+    margin-left: 30px;
+    float: left;
+    border-image-source: url("/imgs/movil.png");
+    border-image-slice: 70 20 60 20;
+    border-width: 70px 10px 70px 10px;
+    border-image-repeat: stretch;
+    border-radius: 31% 
+}
+
+#content > article > header {
+    border-bottom: 1px ;
+    color: #999999;
+    
+}
+
+h2{
+    font-size: 1.2em;
+    padding-left:10px;
+    padding-right:10px ;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+footer{
+    font-size: 0.7em;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(#00b3ff, #686868);
+    border-top: black 6px solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 20px 20px ;
+}
+
+p{
+    text-align: center;
+    color: black;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+
+hr{
+    height: 1px;
+    background-color: #e0e6e6;
+    
+}
