@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/Style.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <div id="page"></div>
+    <form id="registro" method="post"> <h1>Registrate</h1>
+        <ul>
+            <li>
+                <label for="nombre">Mi nombre es:</label><br>
+                <input type="text" id="nombre" name="nombre" required>
+            </li>
+            <li>
+                <label for="email">Mi email es:</label><br>
+                <input type="email" id="email" name="email" required>
+            </li>
+            <li>
+                <label for="recuerdame">Recúerdame en este quipo</label><br>
+                <input type="checkbox" id="recuerdame" nombre="recuerdame"><br>
+                <label for="url">Mi dirección es:</label>
+                <input type="text" id="url" nombre="url">
+            </li>
+            <li>
+                <label for="password1">Me gustaría que mi password fura: <br>(almenos 6 caracteres, sin espacios)</label><br>
+                <input type="password" id="password1" name="password1" pattern="^\S{6,}$" size="6" required>
+            </li>
+            <li>
+                <label for="password2">Mi password repetida es:</label><br>
+                <input type="password" id="password2" name="password2" pattern="^\S{6,}$" size="6" required>
+            </li>
+            <li>
+                <label for="conocimientos">En una escala del 1 al 10 mis conocimietos de Html5  son:</label><br>
+                <input type="range" id="conocimientos" name="conocimientos" min="1" max="10" value="5"  >
+            </li>
+            <li>
+                <label for="fechaInicio">Por favor, inicia mi subcribción el día:</label><br>
+                <input type="date" id="fechaInicio" name="fechaInicio" pattern="\d{2}/\d{2}/\d{4}/" placeholder="dd/mm/yyyy" required><br><br>  <!--Puede que no se muetre la opción personalizada debido a que algunos navegdores ya lo tienen incorporado-->
+            </li>
+            <li>
+                <label for="cantidad">Me gustaría recibir   <input type="number" name="cantidad" id="cantidad" min="0" max="5" value="1"> copias de El manual de HTML5.</label><br>
+                
+            </li>
+            <li>
+                <label for="tambiencss3">Tambíen regístrarme para El manual de CSS3</label><br>
+                <input type="checkbox" id="tambiencss3" name="tambiencss3">
+            </li>
+            <li>
+                <input type="button" value="Envíame" name=" registro-submit" id="registro-submit">
+            </li>
+        </ul>
+
+    </form>
+    
+</body>
+</html>
