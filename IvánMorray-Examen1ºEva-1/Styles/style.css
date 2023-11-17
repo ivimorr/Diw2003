@@ -17,7 +17,7 @@ body{
     width: 960px;
     margin: 0px auto 0px auto;
     text-align: left;
-    background-image: url(/espornets/pexels-leandro-boogalu-1390403.jpg);
+    background-image: url(/IvánMorray-Examen1ºEva-1/espornets/pexels-leandro-boogalu-1390403.jpg);
     background-repeat: no-repeat;
 }
 #header1{
@@ -81,10 +81,6 @@ article{
     border: 1px solid;
     background-color: white;
     line-height:  1.8em; 
-    padding-left: 5px;
-    padding-top:5px ;
-    padding-right:5px ;
-    padding-bottom:20px ;
     padding: 3px 30px 5px 1px;
     margin:50px  ;
     float: left;
