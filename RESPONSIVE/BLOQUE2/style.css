@@ -1,0 +1,22 @@
+@media all and (max-width: 800px){
+    #contenedor .bloque{
+        display: inline-block;
+        display: block !important;
+        height:300px;
+        width: 300px;
+        width: auto !important;
+        border:1px solid #333;
+        background: #999;
+        margin:20px;
+
+    }
+}
+
+#contenedor .bloque{
+    display: inline-block;
+    height:300px;
+    width: 300px;
+    border:1px solid #333;
+    background: #999;
+    margin:20px;
+}
