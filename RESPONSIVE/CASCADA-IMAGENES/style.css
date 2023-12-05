@@ -1,0 +1,57 @@
+
+nav{
+    height: 100px;
+   
+}
+header{
+height: 300px;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+aside{
+    height: 200px;
+    width: 50%;
+    
+}
+main{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+                                        
+.pagina{
+    display: flex;
+    flex-wrap: wrap;
+}
+main img{
+    margin: auto;
+    width: 500px;
+}
+
+aside img{
+    width: 500px;
+}
+
+header img{
+    width: 500px;
+    height: 300px;
+}
+
+
+@media all and (max-width: 600px)
+{
+div, nav, header, aside, main,img
+{
+/* Cuando el ancho sea inferior a 600px el elemento será un bloque */
+display: block !important;
+/* Se ajustarán al ancho de la ventana */
+width: 100% !important;
+margin: auto !important;
+/* La posición será estática (flujo normal del documento) */
+position: static !important;
+/* los elementos dejarán de ser flotantes */
+float: none !important;
+}
+}
