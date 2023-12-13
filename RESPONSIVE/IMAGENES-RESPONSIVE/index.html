@@ -15,14 +15,16 @@
 
     </picture>
 
-    <img src="Imágenes/polilla.jpg" 
-        srcset="Imágenes/polillaRecorte2-320x213.jpg 320w,
-                Imágenes/polillaRecorte-480x320.jpg 480w,
-                Imágenes/polilla-480x320.jpg 800w"
-        sizes="(max-width: 300px) 320px,
-        (max-width: 500px) 480px,
-        800px"
-    alt=""> 
+    <picture>
+        <source media="(min-width:500px)" srcset="Imágenes/polilla.jpg"> 
+        <source media="(max-width:500px)" srcset="Imágenes/polillaRecorte.jpg"> 
+        <source media="(max-width:300px)" srcset="Imágenes/polillaRecorte2.jpg"> 
+        <img src="Imágenes/polilla.jpg" style="width:auto;"> 
+
+
+    </picture>
+
+   
 
 </body>
 </html>
